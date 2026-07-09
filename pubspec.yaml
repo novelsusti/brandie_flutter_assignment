@@ -1,0 +1,37 @@
+name: brandie_flutter_assignment
+description: "Production Flutter implementation of the Oriflame Quick Share smart posts feature."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/quick_share/perfume.png
+    - assets/quick_share/lipstick.png
+    - assets/quick_share/mascara.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/logo.png"
+
+
+
