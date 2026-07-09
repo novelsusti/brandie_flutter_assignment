@@ -1,46 +1,29 @@
 # Brandie Flutter Assignment
 
-A production-ready Flutter implementation of the Smart Posts / Quick Share flow from the supplied Figma screenshots.
+## Project Description
+This is a Flutter application developed as part of the Brandie Flutter Developer assignment.
 
-## What is included
+## Features
+- Smart Post Screen
+- Animated Product Card
+- Edit Caption Screen
+- Responsive Flutter UI
+- Local Assets Support
 
-- Animated loading screen with step-by-step checklist.
-- Smart Posts screen with Oriflame-style header, tabs, camera shortcut, profile chip, ready-to-share badge, captions, music row, share icons, and bottom navigation.
-- Three vertically swipeable posts using `PageView` with Instagram Reels-style behavior.
-- Product card reveal after three seconds using `AnimatedPositioned`, `AnimatedOpacity`, and `AnimatedContainer`.
-- Edit Caption screen with autofocus keyboard behavior and Save disabled until the text changes.
-- Local dummy data and local image assets. No backend, Firebase, API, or authentication is required for this feature flow.
-- Material 3, null safety, reusable widgets, and clean folder structure.
+## Tech Stack
+- Flutter
+- Dart
 
-## Structure
-
-```text
-lib/
- ├── core/
- │   ├── constants/
- │   ├── theme/
- │   └── utils/
- ├── models/
- ├── screens/
- │   ├── loading/
- │   ├── smart_posts/
- │   └── edit_caption/
- ├── widgets/
- ├── animations/
- ├── data/
- └── main.dart
-```
-
-## Run
+## Run the Project
 
 ```bash
 flutter pub get
 flutter run
 ```
 
-## Verify
+## Author
 
-```bash
-flutter analyze
-flutter test
-```
+Ramandeep Kour
+
+GitHub:
+https://github.com/novelsusti
